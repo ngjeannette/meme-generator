@@ -1,0 +1,173 @@
+.main {
+    margin: 20px 40px;
+
+    h1,
+    h2 {
+        text-align: center;
+    }
+
+    .content {
+        p {
+            margin-bottom: 0 !important;
+        }
+    }
+}
+
+.drag-box {
+    text-align: center;
+    background: transparent;
+    width: 320px;
+    cursor: move;
+    resize: none;
+    position: absolute;
+    height: 50px;
+    border: none;
+    font-family: impact;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0px 2px 0 #000,
+        2px 0px 0 #000,
+        0px -2px 0 #000,
+        -2px 0px 0 #000,
+        2px 2px 5px #000;
+}
+
+.hide {
+    display: none !important;
+}
+
+.delete-item {
+    width: 340px;
+    height: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    align-self: center;
+
+    span {
+        display: flex;
+        align-items: center;
+        width: 20px;
+        height: -3px;
+        justify-content: center;
+        line-height: 0px;
+        align-items: center;
+        align-self: center;
+        display: inline-grid;
+        margin: 1px;
+        padding: 10px;
+        background: #eee;
+    }
+}
+
+.options {
+    display: flex;
+}
+
+.memeTitle {
+    position: absolute;
+    background: transparent;
+    width: 320px;
+    cursor: move;
+    resize: none;
+    position: absolute;
+    height: 50px;
+    border: none;
+    font-family: impact;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0px 2px 0 #000,
+        2px 0px 0 #000,
+        0px -2px 0 #000,
+        -2px 0px 0 #000,
+        2px 2px 5px #000;
+
+    &.home {
+        cursor: default;
+    }
+}
+
+.memeContainer {
+    position: relative;
+
+    img {
+        height: 100% !important;
+        width: 100% !important;
+    }
+}
+
+.card {
+    width: 384px !important;
+    margin-bottom: 40px;
+
+    .card-image {
+        margin-top: 20px;
+    }
+
+    img {
+        height: 250px !important;
+        width: 100% !important;
+        object-fit: cover;
+        border: 1px solid #616161;
+    }
+}
+
+
+.description p,
+.card-content {
+    text-align: center;
+    padding-top: 0;
+}
+
+.description-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.generate-Container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    form {
+        width: 320px;
+        align-self: center;
+    }
+
+    .options {
+        margin: 5px 0;
+
+        p {
+            align-self: center;
+        }
+    }
+
+    .newImages {
+        width: 320px;
+        align-self: center;
+        height: 250px;
+
+        img {
+            height: 100% !important;
+            width: 100% !important;
+        }
+    }
+}
+
+.generate-intro {
+    width: 120px;
+}
