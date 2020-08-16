@@ -1,8 +1,10 @@
 # Meme Generator
 
-Playing around with:
+Playing around with (MERN):
 * MongoDB
+* Express
 * React
+* Node
 * Heroku
 * AWS S3 (Amazon Web Services Storage Service)
 
